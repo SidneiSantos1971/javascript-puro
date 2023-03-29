@@ -11,17 +11,33 @@
     <script src="verificavelocidade.js" defer></script>
 </head>
 <body>
-    <div class="container">
+    <header class="container">
         <h1>Verifica Velocidade</h1>
-    <hr>
-    <label class="" for="txtVel">Velocidade do carro</label>
-    <input class="" type="number" name="txtVel" id="txtVel"> km/h
-    <button class="btn btn-primary" id="btnVerificar">Verificar</button>
-    <div class="resultado" id="res">
+        <hr>
+    </header>
+    <main class="container">
+        <div class="container">
+            <div class="row">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label" for="txtVel">Velocidade do carro</label>
+            <input class="form-control col-9" type="number" name="txtVel" id="txtVel">km/h
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary" id="btnVerificar">Verificar</button>
+            </div>
 
     </div>
-    <a href="index.html">Volta a Condições</a>
+    <div class="resultado mb-3" id="res">
+
     </div>
-    
+            </div>
+        </div>
+    </main>
+    <footer class="container text-center">
+        <p>&copy; Sidnei Santos - Engenheiro de Software</p>
+        <p><a href="index.html">Volta a Condições</a></p>
+    </footer>
 </body>
 </html>
